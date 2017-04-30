@@ -9,9 +9,9 @@ Step2. Download TensorFlow fow windows (Install it using "native"  pip)
 
 Step3. Validate your installation (Open python shell or windows terminal/command prompt)
          Run the code :- >>> import tensorflow as tf
-                                 >>> hello = tf.constant('Hello, TensorFlow!')
-                                 >>> sess = tf.Session()
-                                 >>> print(sess.run(hello))
+                         >>> hello = tf.constant('Hello, TensorFlow!')
+                         >>> sess = tf.Session()
+                         >>> print(sess.run(hello))
    
         Output:-  Hello, TensorFlow!
 
