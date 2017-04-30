@@ -35,7 +35,7 @@ Step5. Open Docker by clicking on icon Docker Quickstart Terminal
 Step6.    ctrl-D  then:
                                      cd $HOME
                                      mkdir tf_files
-Step7. Download the zip file from the bellow given link and unzip it and paste it in tf_files folder
+Step7. Download the zip file and unzip it and paste it in tf_files folder
 
 Step8.    docker run -it -v $HOME/tf_files:/tf_files  gcr.io/tensorflow/tensorflow:latest-devel
                ls /tf_files/
